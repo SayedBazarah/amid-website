@@ -1,5 +1,23 @@
-import styles from "../styles/Home.module.css";
+import Home from "../component/Home/Home";
 
-export default function Home() {
-  return <div className={styles.container}></div>;
+export default function HomePage() {
+  const projects = [
+    {
+      id: "01",
+      title: "مشروع ارضيات هليكوبتر كومبوند دار مصر",
+      slug: "مشروع-ارضيات-هليكوبتر",
+      description:
+        "مشروع تنفيذ اعمال الارضيات الهليكوبتر داخل كومبوند دار مصر بمدينة الشروق، مع شركة الحمد للمقاولات العامة والتوريدات",
+      image: "مشروع-ارضيات-هليكوبتر.jpeg",
+    },
+    {
+      id: "01",
+      title: "مشروع ارضيات هليكوبتر كومبوند دار مصر",
+      slug: "مشروع-ارضيات-هليكوبتر",
+      description:
+        "مشروع تنفيذ اعمال الارضيات الهليكوبتر داخل كومبوند دار مصر بمدينة الشروق، مع شركة الحمد للمقاولات العامة والتوريدات",
+      image: "مشروع-ارضيات-هليكوبتر.jpeg",
+    },
+  ];
+  return <Home projects={projects} />;
 }

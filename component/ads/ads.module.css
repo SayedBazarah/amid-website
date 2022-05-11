@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: var(--second-color);
+  padding: 50px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.container div {
+  width: 60%;
+  max-width: 1366px;
+  text-align: center;
+  color: white;
+}
+
+.container h3 {
+  font-size: var(--heading-0);
+  margin-bottom: 20px;
+}
+.container a {
+  background-color: white;
+  color: var(--second-color);
+  padding: 7px 40px;
+  border-radius: 4px;
+  width: fit-content;
+}

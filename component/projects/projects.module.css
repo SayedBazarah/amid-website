@@ -1,0 +1,61 @@
+.container {
+  max-width: 1366px;
+  margin: 50px auto;
+  width: 80%;
+}
+.container h2 {
+  text-align: center;
+  font-size: var(--heading-0);
+}
+
+.product {
+  display: flex;
+  gap: 40px;
+  margin: 40px 0;
+}
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 40px;
+  margin: 40px 0;
+}
+.image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description h3 {
+  margin-bottom: 20px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.description h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.description a {
+  background-color: var(--second-color);
+  color: white;
+  padding: 7px 40px;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 760px) {
+  .product {
+    flex-direction: column;
+  }
+  .reverse {
+    flex-direction: column;
+  }
+  .description {
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
