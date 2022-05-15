@@ -1,7 +1,8 @@
 .header {
   position: fixed;
-  background-color: var(--background-color);
+  background-color: var(--primary-color);
   position: relative;
+  color: white;
 }
 .container {
   display: flex;
@@ -76,10 +77,13 @@
   }
 }
 .button {
-  background-color: var(--second-color);
-  color: white;
-  padding: 7px 40px;
-  border-radius: 4px;
+  padding: 7px 50px;
+  background-color: white;
+  color: var(--primary-color);
+  outline: none;
+  border: none;
+  box-shadow: 0 0 8px 0 white;
+  cursor: pointer;
 }
 /* Animation Burger */
 @keyframes burgerLeft {

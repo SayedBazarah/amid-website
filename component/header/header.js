@@ -23,17 +23,17 @@ function Header() {
           </div>
           <ul className={navState ? Style.openNav : Style.links}>
             <li>
-              <Link href="/">
+              <Link href="/خرسانة-مطبوعة">
                 <a>خرسانة مطبوعة</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/خرسانة-هليكوبتر">
                 <a>خرسانة هليكوبتر</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/ايبوكسى">
                 <a>ايبوكسى</a>
               </Link>
             </li>
